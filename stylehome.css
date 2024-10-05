@@ -1,0 +1,189 @@
+/* Mobile */
+@media (max-width: 768px) {
+  .element {
+    margin: 10px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .element {
+    margin: 20px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+  .element {
+    margin: 30px;
+  }
+}
+/*home css*/
+
+/*patrick img*/
+
+.imgHome {
+  width: auto;
+  border-radius: 64px;
+  block-size: 225px;
+  margin: 50%;
+  float: right;
+  border: solid 2px;
+  border-color: rgb(58, 58, 178);
+  display: flexbox;
+
+}
+.headerBut {
+  color: blueviolet;
+  display: flexbox;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: solid 2px;
+  justify-content: center; /* Adjust alignment as needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}
+.homePage {
+  box-sizing: border-box;
+
+  margin: 20%;
+}
+.homeBody {
+  background-color: cadetblue;
+  display: inline;
+}
+/* Developer, Artist, Mentor */
+.DAM {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  font-weight: 50px;
+  color: darkorchid;
+  text-align: left;
+  padding: 10%;
+}
+.pHome {
+  text-align: center;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: floralwhite;
+  font-size: x-large;
+  padding: 5%;
+}
+.quoteHome {
+  color: darkslateblue;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  border: solid 9px;
+  border-color: indigo;
+}
+/* portfolio css*/
+
+/* main header*/
+.headPro {
+  text-align: center;
+  block-size: auto;
+  background-color: bisque;
+  border: 5px solid olive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  width: auto;
+}
+.divPort {
+  background-color: rgb(153, 198, 224);
+  margin: 100px;
+  width: 64%;
+  border: 3px solid green;
+  padding: 10px;
+  block-size: auto;
+  display: block;
+  padding: 20px;
+}
+.headPort {
+  color: darkolivegreen;
+  text-align: center;
+  block-size: auto;
+  background-color: bisque;
+  border: 5px solid olive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 100px;
+  width: auto;
+  padding: 10px;
+  display: block;
+  font-size: xx-large;
+  font-weight: 200;
+}
+.para{
+   color: darkgoldenrod;
+    font-size: smaller;
+    text-align: right;
+}
+.para2{
+   color: darkgoldenrod;
+    font-size: smaller;
+    text-align: right;
+}
+
+.imgPort-1 {
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+  display: inline-block;
+  padding: 6%;
+  max-width: 99%;
+}
+
+.imgPort-2 {
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+  display: inline-block;
+  padding: 6%;
+  max-width: 99%;
+}
+
+.imgPort-3 {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  display: inline;
+  padding: 20px;
+  max-width: 99%;
+}
+.li1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.li2 {
+  float: left;
+}
+
+.li3 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.headerBut {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
