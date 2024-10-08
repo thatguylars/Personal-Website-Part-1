@@ -1,50 +1,37 @@
-/* mobile */
-@media only screen and (max-width: 480px) {
-  body {
-    background-color: darkolivegreen;
-  }
-}
-
-/*tablet*/
-@media only screen and (min-width: 481px) and (max-width: 800px) {
-  body {
-    background-color: darkkhaki;
-  }
-}
-
-/* website*/
-@media only screen and (min-width: 801px) {
-  body {
-    background-color: olive;
-  }
-}
-
 /*patrick img*/
 
 .imgHome {
   width: auto;
   border-radius: 64px;
-  block-size: 225px;
-  margin: 50%;
+  margin: 18%;
   float: right;
-  border: solid 2px;
+  border: solid 9px;
   border-color: rgb(58, 58, 178);
   display: flexbox;
+  block-size: 700px;
 }
 .headerBut {
-  color: blueviolet;
-  display: flexbox;
-  padding: 10px 20px;
-  background-color: blue;
-  color: white;
-  border: solid 2px;
-  justify-content: center; /* Adjust alignment as needed */
+  display: flex;
+  padding: 0;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  padding: 10px;
+  background: #faf9f6;
+  border: 4px solid antiquewhite;
+  justify-content: space-between;
 }
+li {
+  width: 100px;
+  border: solid 3px grey;
+  margin-block: unset;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2px 80px;
+  text-wrap: nowrap;
+  align-content: stretch;
+  flex-direction: row;
+}
+
 .homePage {
   box-sizing: border-box;
 
@@ -99,7 +86,7 @@
   border: 3px solid green;
   padding: 10px;
   block-size: auto;
-  display: block;
+  display: inline-flexbox;
   padding: 20px;
 }
 .headPort {
@@ -155,78 +142,40 @@
 }
 /*ABOUT SPECS*/
 
-.abouthead{
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: xx-large;
-color: rgb(215, 207, 201);
-text-align: center;
-
+.abouthead {
+  margin: 20%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+  color: rgb(215, 207, 201);
+  text-align: center;
+  display: flex;
+  border: rgb(224, 212, 175) solid 20px;
 }
 
-.pAbout{
-color: rgb(60, 48, 119);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-align: center;
-display: inline-flexbox;
-font-size: x-large;
-
-
-}
-
-.li1 {
-  margin: 10px;
-  width: fit-content;
-  border: solid 3px grey;
+.pAbout {
+  color: rgb(60, 48, 119);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
   display: inline-flexbox;
+  font-size: large;
+  margin: 4%;
 }
-
-.li2 {
-  margin: 10px;
-  width: fit-content;
-  border: solid 3px grey;
-  display: inline-flexbox;
-}
-
-.li3 {
-  margin: 10px;
-  border: solid 3px grey;
-  width: fit-content;
-  display: inline-flexbox;
+.aboutDIV {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: solid 2px darkblue;
+  background-color: lightslategrey;
 }
 
 .img-1 {
-  
   display: inline-flex;
-  padding: 20px;
-   width: 800px;
-  height: 800px; ;
+  padding: 5px;
+  width: 500px;
+  height: 500px;
   object-fit: contain;
-  border: 2px solid black;
-  margin: 10px;
-}
-
-.headerBut {
-  background-color: #cee2eb;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: auto;
-  margin: 20px 20px;
-  cursor: pointer;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-nav {
-  position: fixed;
-  left: 0;
-  right: 0;
-  align-items: center;
-  color: aliceblue;
-  height: 80px;
-  padding: 10px;
-  display: inline-flexbox !important;
+  border: 20px solid black;
+  margin: 20px;
 }
