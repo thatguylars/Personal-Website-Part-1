@@ -179,3 +179,24 @@ li {
   border: 20px solid black;
   margin: 20px;
 }
+/* css for contact page*/
+#formBox {
+  justify-items: center;
+  display: inline-table;
+  background-color: goldenrod;
+  font-size: medium;
+  margin-block: 20vw;
+}
+
+.bodyContact {
+  background-image: url("images/blkBob.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 100vh auto;
+}
+.success-Body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
